@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="users" directorySegmentName="seg_0" id="9D62BF7D-6C1B-467D-0E90-43319852ADAA">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:28:41 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="name" id="09CE0ED0-2964-3EA7-5478-B2486D81FC0B">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:28:42 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="gender" id="0E6F33B5-BF8E-B19B-71E8-39BEF8F2B529">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:28:42 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="user_description" id="44C3B138-0A0E-EBD9-0E10-31AD4F2682B4">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:28:42 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="password" id="B7038C11-243E-02AB-01E9-402AAB622709">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:28:42 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="user_id" id="C0786AFF-5C21-9B5A-189E-5D62F824564B">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:28:42 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="username" id="C13CBA77-A57A-61EC-F470-BCF3E7FFF103">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:28:42 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="dob" id="CC540AD7-3368-14D5-4F8E-22364FF6DD0B">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:28:42 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="surname" id="F21F3ADB-AE61-A2E5-6598-2C5451273BA0">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:28:42 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="users_PK" id="45E7CD5B-4A4C-A97E-7ECC-746F581F99BB">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:28:42 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

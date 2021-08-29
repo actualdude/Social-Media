@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5BDA22F5-230D-349F-87E0-CFE8285D2446" name="study plan">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:30:05 UTC</createdTime>
+<generatorID>189D7EC9-A9D9-A2FD-E0FA-A425FA1A3A67</generatorID>
+<ownerDesignName>Network</ownerDesignName>
+<engineerTo>
+<item key="D3A610CB-5C89-AF00-F9EF-A81B419DED74" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="study plan id" id="C5315B1A-BE53-D85E-4094-ECBA47ADA891">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:30:05 UTC</createdTime>
+<generatorID>D4DF1930-DDBF-60EE-CE23-EEF5DF319504</generatorID>
+<ownerDesignName>Network</ownerDesignName>
+<engineerTo>
+<item key="D3A610CB-5C89-AF00-F9EF-A81B419DED74" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="study plan name" id="05C210CC-ECDE-010E-83BF-5DA7A04FFCEF">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:30:05 UTC</createdTime>
+<generatorID>5EFEE13D-7EF5-2F05-7AB2-FCEE40A9A118</generatorID>
+<ownerDesignName>Network</ownerDesignName>
+<engineerTo>
+<item key="D3A610CB-5C89-AF00-F9EF-A81B419DED74" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="department id" id="794E4CB3-4833-0359-0FE9-A03337AC83E7">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:30:05 UTC</createdTime>
+<generatorID>923A0497-AC90-1602-A337-F684258A4A09</generatorID>
+<ownerDesignName>Network</ownerDesignName>
+<engineerTo>
+<item key="D3A610CB-5C89-AF00-F9EF-A81B419DED74" value="true"/>
+</engineerTo>
+<referedAttribute>4DB4D57F-35FA-67A1-B95E-86A07EED9D30</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4A590EDE-EB0D-E5BF-E745-D592921DCCE6" name="`study plan` PK">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:30:05 UTC</createdTime>
+<generatorID>EB5B00FE-9A97-9300-AB6A-61ED91C9EF19</generatorID>
+<ownerDesignName>Network</ownerDesignName>
+<engineerTo>
+<item key="D3A610CB-5C89-AF00-F9EF-A81B419DED74" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C5315B1A-BE53-D85E-4094-ECBA47ADA891</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

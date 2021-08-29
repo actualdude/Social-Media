@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="`comments_group_fk`" directorySegmentName="seg_0" id="D456905F-85CE-B10A-C753-74200D7C8D13">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:30:05 UTC</createdTime>
+<generatorID>57F1580B-D597-3303-4093-DCF8D38F8898</generatorID>
+<ownerDesignName>Network</ownerDesignName>
+<engineerTo>
+<item key="D3A610CB-5C89-AF00-F9EF-A81B419DED74" value="true"/>
+</engineerTo>
+<sourcePk>7DA757BB-8357-C6F6-10B2-33DD289509AD</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>97733D37-F0E7-F7B0-3297-CA8E8E590CFF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A599CED4-7B05-1BC6-7479-5B92FD0B6323</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

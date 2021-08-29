@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="messages" directorySegmentName="seg_0" id="184FC159-A22E-50FF-CC2F-5FCF7B138B8B">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:28:41 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="conversations_conversation_id" id="1FEB37A1-83E1-DB7A-F051-00D32B425975">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:28:42 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="users_user_id" id="8973C74B-B890-EA73-48AA-3533A44C620A">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:28:42 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="date_posted" id="A345FCF0-BEE2-CDF6-277E-CCFAD5BA6BA8">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:28:42 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="content" id="B2BA72B7-C1DF-B40E-CABA-C69F817C5E1E">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:28:42 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="message_id" id="CD80DFBA-2311-BC33-0556-86631628E268">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:28:42 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="messages_users_FK" id="5CCC98DD-A59E-4E0F-9767-7C93184DF5E7">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:28:42 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="messages_conversations_FK" id="8381F432-0220-C0AB-0936-1EDF119132DD">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:28:42 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="messages_PK" id="25721F3F-DEB7-D90A-3404-8CFF5907D9F8">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:28:42 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

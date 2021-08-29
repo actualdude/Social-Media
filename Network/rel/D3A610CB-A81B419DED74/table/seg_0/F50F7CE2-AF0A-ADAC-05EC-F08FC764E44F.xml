@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F50F7CE2-AF0A-ADAC-05EC-F08FC764E44F" name="LIKE">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-21 15:15:00 UTC</createdTime>
+<generatorID>45A5A11A-75AC-64F4-54BE-34D3D65AC251</generatorID>
+<ownerDesignName>Network</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="like_id" id="8265DB71-B1FD-2280-FCD3-FF0DAF6F495B">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-21 15:15:00 UTC</createdTime>
+<generatorID>72A47690-D954-AA6D-B1B6-C33082B48BD8</generatorID>
+<ownerDesignName>Network</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="like_DATA" id="DAE8C90F-043B-8881-9DCD-D5E272BB389B">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-21 15:15:00 UTC</createdTime>
+<generatorID>AFA42001-B8B5-58C3-8404-158F0C0973DC</generatorID>
+<ownerDesignName>Network</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F53B4BA1-952C-140B-9A69-27E1C0065BE4" name="LIKE_PK">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-21 15:15:00 UTC</createdTime>
+<generatorID>AAA00C33-119C-CBFE-E287-2F8CA4724B50</generatorID>
+<ownerDesignName>Network</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8265DB71-B1FD-2280-FCD3-FF0DAF6F495B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

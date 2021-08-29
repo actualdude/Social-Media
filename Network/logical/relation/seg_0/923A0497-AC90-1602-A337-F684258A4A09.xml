@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="`study_plan_department_fk`" directorySegmentName="seg_0" id="923A0497-AC90-1602-A337-F684258A4A09">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:30:05 UTC</createdTime>
+<generatorID>F8E26F21-2120-DE83-F27E-C304B5A998EA</generatorID>
+<ownerDesignName>Network</ownerDesignName>
+<engineerTo>
+<item key="D3A610CB-5C89-AF00-F9EF-A81B419DED74" value="true"/>
+</engineerTo>
+<sourcePk>6EA0E830-541F-017B-ACDC-98D7E71926D8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BEBE2184-8240-48D4-BE17-900A9E20B01D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5BDA22F5-230D-349F-87E0-CFE8285D2446</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

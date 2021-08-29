@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="97733D37-F0E7-F7B0-3297-CA8E8E590CFF" name="groups">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:30:05 UTC</createdTime>
+<generatorID>20D9AF07-B9AD-3AEC-91C6-748368B796E8</generatorID>
+<ownerDesignName>Network</ownerDesignName>
+<engineerTo>
+<item key="D3A610CB-5C89-AF00-F9EF-A81B419DED74" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="group id" id="8DAE22E0-D1EC-7C08-DEDA-57CF958487A3">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:30:05 UTC</createdTime>
+<generatorID>2CC02C64-48A6-ACA1-5E1E-E96C1CC642B5</generatorID>
+<ownerDesignName>Network</ownerDesignName>
+<engineerTo>
+<item key="D3A610CB-5C89-AF00-F9EF-A81B419DED74" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="group name" id="B9D8AA25-A5F7-FAAC-CB28-A6FE5ED3C16A">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:30:05 UTC</createdTime>
+<generatorID>F7CF7930-61D7-D472-2AD8-1D958CE4DD12</generatorID>
+<ownerDesignName>Network</ownerDesignName>
+<engineerTo>
+<item key="D3A610CB-5C89-AF00-F9EF-A81B419DED74" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="group_Description" id="E31B65D6-7D2B-A7CE-458B-7121D9F6389C">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:30:05 UTC</createdTime>
+<generatorID>70B607E4-BDBD-32F3-3A3D-06BD64F2C54E</generatorID>
+<ownerDesignName>Network</ownerDesignName>
+<engineerTo>
+<item key="D3A610CB-5C89-AF00-F9EF-A81B419DED74" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="course id" id="E62A1F27-D6DA-83E6-481D-D1249CFBB9FA">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:30:05 UTC</createdTime>
+<generatorID>D8A42B59-E02C-B007-58EA-E5B2A9092F91</generatorID>
+<ownerDesignName>Network</ownerDesignName>
+<engineerTo>
+<item key="D3A610CB-5C89-AF00-F9EF-A81B419DED74" value="true"/>
+</engineerTo>
+<referedAttribute>5988D379-6AFE-0B3F-1CDB-302B295CF6B8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7DA757BB-8357-C6F6-10B2-33DD289509AD" name="`groups` PK">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:30:05 UTC</createdTime>
+<generatorID>41F45EF1-8878-47B0-26AD-6CDB35E2A555</generatorID>
+<ownerDesignName>Network</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="D3A610CB-5C89-AF00-F9EF-A81B419DED74" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8DAE22E0-D1EC-7C08-DEDA-57CF958487A3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

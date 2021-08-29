@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1B189AA8-41D1-BF8C-A51B-EEFEC847D865" containerWithKeyObject="184FC159-A22E-50FF-CC2F-5FCF7B138B8B" localFKIndex="70B7260F-EABC-82BA-D3EA-A620BBE228BB" name="messages_friends_FK">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-20 21:08:35 UTC</createdTime>
+<generatorID>5891DFD5-EC55-4C63-044A-5EB331906E04</generatorID>
+<ownerDesignName>Network</ownerDesignName>
+<referredTableLongName>friends</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5B9AFDF8-3936-B214-D47D-66AD41931332</referredTableID>
+<keyObject>A026BD17-BBED-7329-5F67-0B8F3F8E9F50</keyObject>
+<referredKeyID>A026BD17-BBED-7329-5F67-0B8F3F8E9F50</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

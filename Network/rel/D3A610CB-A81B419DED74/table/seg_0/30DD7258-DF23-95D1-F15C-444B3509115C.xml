@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="30DD7258-DF23-95D1-F15C-444B3509115C" name="study_department">
+<sourceDDLFile>network.sql</sourceDDLFile>
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:28:41 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+<importedID>EAC3B6F2-6D21-30A3-0D47-632AA00EBDFB</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="department_id" id="049D1B39-3FE7-638B-A528-8A24DCB24FAA">
+<sourceDDLFile>network.sql</sourceDDLFile>
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:28:42 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+<importedID>E38E7EEB-1D7B-9ED5-B10A-2570932AFEDE</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1C40A755-8DF8-0D1A-C1D3-64622BEC608B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="department_name" id="3186D087-4734-A954-E4EC-AC3AEBAB3DCC">
+<sourceDDLFile>network.sql</sourceDDLFile>
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:28:42 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+<importedID>050B1EA6-AF15-5E5C-45D7-B1BA57ED05DB</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>11242DF3-5A82-8C6C-BFFF-947F58036179</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EF2F9E96-CBDD-D8CE-1725-1C19E21E7069" name="study_department_PK">
+<sourceDDLFile>network.sql</sourceDDLFile>
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:28:42 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+<importedID>0B89F871-10F3-20C6-9AF5-B69F1B9FE529</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="049D1B39-3FE7-638B-A528-8A24DCB24FAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

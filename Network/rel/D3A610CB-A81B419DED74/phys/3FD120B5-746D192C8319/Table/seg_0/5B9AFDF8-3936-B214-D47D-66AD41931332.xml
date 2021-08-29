@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="friends" directorySegmentName="seg_0" id="5B9AFDF8-3936-B214-D47D-66AD41931332">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:28:41 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="id" id="CECC7FE6-3A2D-6A5D-180E-03FEBDE48115">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:28:42 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="users_user_id" id="D29FAE96-4531-5391-33BE-03D638ABFE8B">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:28:42 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="users_user_id1" id="D87C2D68-C85F-966D-C70D-D7F2A8D45631">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:28:42 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="friends_users_FKv1" id="606F4BCC-178F-F237-FDFF-15A069028622">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:28:42 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="friends_users_FK" id="971D031A-3732-F96C-1484-D073652D95E6">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:28:42 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="friends_PK" id="A026BD17-BBED-7329-5F67-0B8F3F8E9F50">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:28:42 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5B9AFDF8-3936-B214-D47D-66AD41931332" name="friends">
+<sourceDDLFile>network.sql</sourceDDLFile>
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:28:41 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+<importedID>D5221948-2D15-14DB-C887-118114611999</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="friends_id" id="CECC7FE6-3A2D-6A5D-180E-03FEBDE48115">
+<sourceDDLFile>network.sql</sourceDDLFile>
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:28:42 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+<importedID>6B3AC238-FB4F-D97A-EC7A-29ED5AC4C084</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1C40A755-8DF8-0D1A-C1D3-64622BEC608B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="users_user_id" id="D29FAE96-4531-5391-33BE-03D638ABFE8B">
+<sourceDDLFile>network.sql</sourceDDLFile>
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:28:42 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+<importedID>2AE2C7EF-1819-CE2A-E71E-59B2D5CBDE8B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1C40A755-8DF8-0D1A-C1D3-64622BEC608B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="76DBEC81-A586-0C57-1EF5-5065399DB46A" referredColumn="C0786AFF-5C21-9B5A-189E-5D62F824564B"/>
+</associations>
+</Column>
+<Column name="users_user_id2" id="D87C2D68-C85F-966D-C70D-D7F2A8D45631">
+<sourceDDLFile>network.sql</sourceDDLFile>
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:28:42 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+<importedID>93BF3283-F418-3899-EE42-957682F97814</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1C40A755-8DF8-0D1A-C1D3-64622BEC608B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0689E76C-D7ED-456B-A9C6-62C7E91C24BA" referredColumn="C0786AFF-5C21-9B5A-189E-5D62F824564B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A026BD17-BBED-7329-5F67-0B8F3F8E9F50" name="friends_PK">
+<sourceDDLFile>network.sql</sourceDDLFile>
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:28:42 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+<importedID>CF8EF006-A196-C5AE-E474-95D8BDA35ABD</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CECC7FE6-3A2D-6A5D-180E-03FEBDE48115"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="971D031A-3732-F96C-1484-D073652D95E6" name="friends_users_FK">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:28:42 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D87C2D68-C85F-966D-C70D-D7F2A8D45631"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="606F4BCC-178F-F237-FDFF-15A069028622" name="friends_users_FKv2">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:28:42 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D29FAE96-4531-5391-33BE-03D638ABFE8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

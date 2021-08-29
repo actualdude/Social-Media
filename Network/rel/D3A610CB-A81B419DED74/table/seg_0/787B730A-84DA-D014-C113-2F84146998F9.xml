@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="787B730A-84DA-D014-C113-2F84146998F9" name="course_plan">
+<sourceDDLFile>network.sql</sourceDDLFile>
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:28:41 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+<importedID>5954225A-C0B1-2938-CF9F-E8ED326DEC91</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="coursePlan_id" id="71FFFF11-4626-8799-A565-F43DE01C49C4">
+<sourceDDLFile>network.sql</sourceDDLFile>
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:28:42 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+<importedID>E3A7BEDF-42B1-62E3-075B-1EF6357C64EC</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1C40A755-8DF8-0D1A-C1D3-64622BEC608B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="courses_course_id" id="5A9388AC-1937-9DF2-C710-D8065FA8B4D5">
+<sourceDDLFile>network.sql</sourceDDLFile>
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:28:42 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+<importedID>E4CC96D0-9FD8-6B27-E47A-D013B958A9BE</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1C40A755-8DF8-0D1A-C1D3-64622BEC608B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4A65B34B-767E-60F0-2B3C-241F66E68D45" referredColumn="AE67C9B9-B6AA-1E3A-E154-E221864CF9D6"/>
+</associations>
+</Column>
+<Column name="study_plan_study_plan_id" id="33979F60-E1A0-8DCF-60CE-414085AF27E0">
+<sourceDDLFile>network.sql</sourceDDLFile>
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:28:42 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+<importedID>73204E7D-F684-2974-1E46-F6E9BE9A0290</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1C40A755-8DF8-0D1A-C1D3-64622BEC608B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="93C53915-C22A-9ACF-86A3-E270F4BD6FE0" referredColumn="D4DF1930-DDBF-60EE-CE23-EEF5DF319504"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A192370E-B860-C78C-ABB3-A87586A4911B" name="course_plan_PK">
+<sourceDDLFile>network.sql</sourceDDLFile>
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:28:42 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+<importedID>B4BF2986-B1AB-0C2B-8E0B-8C1DCC2BA33E</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71FFFF11-4626-8799-A565-F43DE01C49C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6207DDC6-D191-F546-D7CB-0ACD1295B358" name="course_plan_courses_FK">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:28:42 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A9388AC-1937-9DF2-C710-D8065FA8B4D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="69C1BF88-0F8D-240A-16C3-75B100D97C0C" name="course_plan_study_plan_FK">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:28:42 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33979F60-E1A0-8DCF-60CE-414085AF27E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

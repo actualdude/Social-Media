@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="users_courses" directorySegmentName="seg_0" id="AE55359A-B982-9ADD-D9D0-3A30C05C18B7">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 12:39:05 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+<engineerTo>
+<item key="D3A610CB-5C89-AF00-F9EF-A81B419DED74" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>4FDF48C7-E5E5-EB4E-5D43-C732D6246172</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>ABD8704C-7689-B797-1259-23A355F1969D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Network" id="5DCB3E45-A4B6-FA19-BD98-2042E29BE3DD" version="3.5">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:23:34 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>5DCB3E45-A4B6-FA19-BD98-2042E29BE3DD</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="5453C524-1F67-8AD8-5C0F-C8E631602597">
+<designStoragePath>C:\network</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

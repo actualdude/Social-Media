@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="639.0" prefWidth="940.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.FXMLMediaController">
+    <children>
+        <TabPane layoutX="14.0" prefHeight="650.0" prefWidth="926.0" tabClosingPolicy="UNAVAILABLE" tabMaxHeight="200.0" tabMaxWidth="500.0">
+            <tabs>
+                <Tab fx:id="CoursesTab" text="COURSES">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TableView fx:id="coursesTableView" layoutX="29.0" layoutY="14.0" prefHeight="250.0" prefWidth="794.0">
+                          <columns>
+                            <TableColumn fx:id="coursesIDColumn" prefWidth="91.0" text="COURSE ID" />
+                              <TableColumn fx:id="coursesShortColumn" prefWidth="154.0" text="SHORT NAME" />
+                              <TableColumn fx:id="coursesNameColumn" prefWidth="291.0" text="COURSE NAME" />
+                              <TableColumn fx:id="coursesDeptColumn" prefWidth="257.0" text="STUDY DEPARTMENT" />
+                          </columns>
+                        </TableView>
+                        <Button fx:id="addCourseButton" layoutX="124.0" layoutY="370.0" mnemonicParsing="false" onAction="#method_addCourse" text="ADD COURSE">
+                           <font>
+                              <Font name="Times New Roman Bold" size="13.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="deleteCourseButton" layoutX="436.0" layoutY="370.0" mnemonicParsing="false" onAction="#method_deleteCourse" text="DELETE COURSE">
+                           <font>
+                              <Font name="Times New Roman Bold" size="13.0" />
+                           </font>
+                        </Button>
+                        <TextField fx:id="courseIDTextField" layoutX="138.0" layoutY="317.0" prefHeight="25.0" prefWidth="77.0" />
+                        <Label layoutX="147.0" layoutY="286.0" text="COURSE ID" />
+                        <Label layoutX="373.0" layoutY="294.0" />
+                     </children>
+                        </AnchorPane>
+                    </content>
+                </Tab>
+                <Tab fx:id="UserInfoTab" text="USER INFO">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="171.0" prefWidth="878.0">
+                     <children>
+                        <Button fx:id="infoUpdateAdressButton" layoutX="720.0" layoutY="253.0" mnemonicParsing="false" onAction="#method_infoUpdateAdress" text="UPDATE ADDRESS">
+                           <font>
+                              <Font name="Times New Roman Bold" size="14.0" />
+                           </font></Button>
+                        <TextField fx:id="infoStreetText" layoutX="117.0" layoutY="195.0" />
+                        <TextField fx:id="infoStreetNoText" layoutX="117.0" layoutY="241.0" />
+                        <TextField fx:id="infoPostCodeText" layoutX="117.0" layoutY="328.0" />
+                        <TextField fx:id="infoEmailText" layoutX="489.0" layoutY="195.0" />
+                        <TextField fx:id="infoCityText" layoutX="117.0" layoutY="286.0" />
+                        <TextField fx:id="infoMobileNoText" layoutX="489.0" layoutY="241.0" />
+                        <Label layoutX="24.0" layoutY="199.0" text="STREET :">
+                           <font>
+                              <Font name="Times New Roman Bold" size="14.0" />
+                           </font></Label>
+                        <Label layoutX="13.0" layoutY="245.0" text="STREET_NO :">
+                           <font>
+                              <Font name="Times New Roman Bold" size="14.0" />
+                           </font></Label>
+                        <Label layoutX="34.0" layoutY="291.0" text="CITY :">
+                           <font>
+                              <Font name="Times New Roman Bold" size="14.0" />
+                           </font></Label>
+                        <Label layoutX="12.0" layoutY="332.0" text="POST_CODE :">
+                           <font>
+                              <Font name="Times New Roman Bold" size="14.0" />
+                           </font></Label>
+                        <Label layoutX="405.0" layoutY="291.0" text="SKYPE :">
+                           <font>
+                              <Font name="Times New Roman Bold" size="14.0" />
+                           </font></Label>
+                        <Label layoutX="377.0" layoutY="245.0" text="MOBILE_NO :">
+                           <font>
+                              <Font name="Times New Roman Bold" size="14.0" />
+                           </font></Label>
+                        <Label layoutX="396.0" layoutY="199.0" text="EMAIL :">
+                           <font>
+                              <Font name="Times New Roman Bold" size="14.0" />
+                           </font></Label>
+                        <TableView fx:id="infoTableView" layoutX="13.0" layoutY="14.0" prefHeight="132.0" prefWidth="878.0">
+                           <columns>
+                              <TableColumn fx:id="infoNameColumn" prefWidth="95.0" text="NAME" />
+                              <TableColumn fx:id="infoSurnameColumn" prefWidth="109.0" text="SURNAME" />
+                              <TableColumn fx:id="infoGenderColumn" prefWidth="76.0" text="GENDER" />
+                              <TableColumn fx:id="infoUserDesColumn" prefWidth="130.0" text="USER_DESCRIPTION" />
+                              <TableColumn fx:id="infoDOBColumn" prefWidth="96.0" text="DOB" />
+                              <TableColumn fx:id="infoCityColumn" prefWidth="64.0" text="CITY" />
+                              <TableColumn fx:id="infoEmailColumn" prefWidth="99.0" text="EMAIL" />
+                              <TableColumn fx:id="infoMobileNoColumn" prefWidth="101.0" text="MOBILE_NO" />
+                              <TableColumn fx:id="infoSkypeColumn" prefWidth="107.0" text="SKYPE" />
+                           </columns>
+                        </TableView>
+                        <Label layoutX="133.0" layoutY="156.0" text="ADDRESS" underline="true">
+                           <font>
+                              <Font name="Times New Roman Bold" size="14.0" />
+                           </font></Label>
+                        <Label layoutX="517.0" layoutY="156.0" text="CONTACT" underline="true">
+                           <font>
+                              <Font name="Times New Roman Bold" size="14.0" />
+                           </font></Label>
+                        <TextField fx:id="infoSkypeText" layoutX="489.0" layoutY="286.0" />
+                        <Button fx:id="infoUpdateContactButton" layoutX="717.0" layoutY="195.0" mnemonicParsing="false" onAction="#method_infoUpdateContact" text="UPDATE CONTACT">
+                           <font>
+                              <Font name="Times New Roman Bold" size="14.0" />
+                           </font></Button>
+                        <Button fx:id="userInfoDeleteButton" layoutX="709.0" layoutY="414.0" mnemonicParsing="false" onAction="#method_userInfoDelete" text="DELETE USER DETAILS">
+                           <font>
+                              <Font name="Times New Roman Bold" size="13.0" />
+                           </font>
+                        </Button>
+                        <ComboBox fx:id="userInfoComboBox" layoutX="718.0" layoutY="316.0" prefWidth="150.0" />
+                        <Button fx:id="userInfoInsertButton" layoutX="767.0" layoutY="365.0" mnemonicParsing="false" onAction="#method_userInfoInsert" text="INSERT DATA">
+                           <font>
+                              <Font name="Times New Roman Bold" size="13.0" />
+                           </font>
+                        </Button>
+                     </children>
+                        </AnchorPane>
+                    </content>
+                </Tab>
+            <Tab fx:id="FriendsTab" text="FRIENDS">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <AnchorPane layoutX="5.0" layoutY="2.0" prefHeight="616.0" prefWidth="916.0">
+                           <children>
+                              <BorderPane layoutX="5.0" layoutY="2.0" prefHeight="616.0" prefWidth="916.0">
+                                 <bottom>
+                                    <Pane prefHeight="200.0" prefWidth="811.0" BorderPane.alignment="CENTER">
+                                       <children>
+                                          <TextArea fx:id="friendTextArea" layoutX="67.0" layoutY="60.0" prefHeight="114.0" prefWidth="475.0" />
+                                          <Button fx:id="sendButton" layoutX="563.0" layoutY="100.0" mnemonicParsing="false" onAction="#method_sendButton" prefHeight="34.0" prefWidth="94.0" text="SEND">
+                                             <font>
+                                                <Font name="Times New Roman Bold" size="13.0" />
+                                             </font></Button>
+                                          <Button fx:id="friendGetUserMessagesButton" layoutX="772.0" layoutY="14.0" mnemonicParsing="false" onAction="#method_friendGetUserMessages" text="GET MESSAGES">
+                                             <font>
+                                                <Font name="Times New Roman Bold" size="13.0" />
+                                             </font>
+                                          </Button>
+                                          <Button fx:id="friendsDeleteMessageButton" layoutX="762.0" layoutY="117.0" mnemonicParsing="false" onAction="#method_friendsDeleteMessage" text="DELETE MESSAGE">
+                                             <font>
+                                                <Font name="Times New Roman Bold" size="13.0" />
+                                             </font>
+                                          </Button>
+                                          <Button fx:id="friendsUpdateMessageButton" layoutX="762.0" layoutY="60.0" mnemonicParsing="false" onAction="#method_friendsUpdateMessage" text="UPDATE MESSAGE">
+                                             <font>
+                                                <Font name="Times New Roman Bold" size="13.0" />
+                                             </font>
+                                          </Button>
+                                       </children>
+                                    </Pane>
+                                 </bottom>
+                                 <left>
+                                    <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                                       <children>
+                                          <TableView fx:id="friendsTableView" layoutX="4.0" layoutY="2.0" prefHeight="291.0" prefWidth="192.0">
+                                            <columns>
+                                              <TableColumn fx:id="friendsIDColumn" prefWidth="68.0" text="ID" />
+                                                <TableColumn fx:id="friendsFriColumn" prefWidth="123.0" text="FRIENDS" />
+                                            </columns>
+                                          </TableView>
+                                          <Button fx:id="addFriendButton" layoutX="37.0" layoutY="338.0" mnemonicParsing="false" onAction="#method_addFriendButton" prefHeight="25.0" prefWidth="127.0" text="ADD FRIEND">
+                                             <font>
+                                                <Font name="Times New Roman Bold" size="13.0" />
+                                             </font></Button>
+                                          <Label layoutY="309.0" text="USERNAME">
+                                             <font>
+                                                <Font name="Times New Roman Bold" size="13.0" />
+                                             </font></Label>
+                                          <TextField fx:id="addFriendText" layoutX="74.0" layoutY="304.0" prefHeight="25.0" prefWidth="121.0" />
+                                          <Button fx:id="removeFriendButton" layoutX="35.0" layoutY="377.0" mnemonicParsing="false" onAction="#method_removeFriend" text="REMOVE FRIEND">
+                                             <font>
+                                                <Font name="Times New Roman Bold" size="13.0" />
+                                             </font>
+                                          </Button>
+                                       </children>
+                                    </Pane>
+                                 </left>
+                                 <center>
+                                    <TableView fx:id="messageTableView" prefHeight="416.0" prefWidth="613.0" BorderPane.alignment="CENTER">
+                                      <columns>
+                                        <TableColumn fx:id="messageID" prefWidth="86.0" text="ID" />
+                                        <TableColumn fx:id="messageContent" minWidth="0.0" prefWidth="219.0" text="CONTENT" />
+                                          <TableColumn fx:id="messageDate_Posted" minWidth="0.0" prefWidth="225.0" text="DATE_POSTED" />
+                                          <TableColumn fx:id="messageReceiver" minWidth="0.0" prefWidth="185.0" text="RECEIVER" />
+                                      </columns>
+                                    </TableView>
+                                 </center>
+                              </BorderPane>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+            <Tab text="GROUPS">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <AnchorPane prefHeight="622.0" prefWidth="926.0">
+                           <children>
+                              <BorderPane layoutX="5.0" layoutY="2.0" prefHeight="616.0" prefWidth="916.0">
+                                 <top>
+                                    <TableView fx:id="groupsTableView" prefHeight="214.0" prefWidth="916.0" BorderPane.alignment="CENTER">
+                                      <columns>
+                                        <TableColumn fx:id="groupsIDColumn" prefWidth="74.0" text="ID" />
+                                        <TableColumn fx:id="groupsNameColumn" prefWidth="213.0" text="NAME" />
+                                          <TableColumn fx:id="groupsCoursesColumn" prefWidth="208.0" text="COURSES" />
+                                          <TableColumn fx:id="groupsGroupColumn" prefWidth="176.0" text="GROUPS" />
+                                          <TableColumn fx:id="groupsDescriptionColumn" prefWidth="244.0" text="DESCRIPTION" />
+                                      </columns>
+                                    </TableView>
+                                 </top>
+                                 <right>
+                                    <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+                                 </right>
+                                 <bottom>
+                                    <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                                       <children>
+                                          <TableView fx:id="groupsCommentTableView" layoutY="11.0" prefHeight="176.0" prefWidth="708.0">
+                                            <columns>
+                                              <TableColumn fx:id="groupsCommentIDColumn" prefWidth="40.0" text="ID" />
+                                              <TableColumn fx:id="groupsCommentNameColumn" minWidth="0.0" prefWidth="93.0" text="NAME" />
+                                                <TableColumn fx:id="groupsCommentEmailColumn" prefWidth="117.0" text="EMAIL" />
+                                                <TableColumn fx:id="groupsCommentColumn" prefWidth="158.0" text="COMMENTS" />
+                                                <TableColumn fx:id="groupsCommentDateColumn" prefWidth="122.0" text="DATE POSTED" />
+                                                <TableColumn fx:id="groupsCommentLikeColumn" prefWidth="99.0" text="LIKE" />
+                                                <TableColumn fx:id="groupsCommentGroupColumn" text="GROUP" />
+                                            </columns>
+                                          </TableView>
+                                          <TextArea fx:id="groupsCommentText" layoutX="778.0" layoutY="3.0" prefHeight="72.0" prefWidth="134.0" />
+                                          <Button fx:id="groupsSendCommentsButton" layoutX="717.0" layoutY="88.0" mnemonicParsing="false" onAction="#method_groupsSendComments" text="SEND">
+                                             <font>
+                                                <Font name="Times New Roman Bold" size="13.0" />
+                                             </font></Button>
+                                          <TextField fx:id="groupsCommentIDLike" layoutX="717.0" layoutY="19.0" prefHeight="25.0" prefWidth="54.0" />
+                                          <Label layoutX="737.0" layoutY="4.0" text="ID">
+                                             <font>
+                                                <Font name="Times New Roman Bold" size="13.0" />
+                                             </font></Label>
+                                          <ComboBox fx:id="groupsCommentsComboBox" layoutX="719.0" layoutY="50.0" prefHeight="25.0" prefWidth="37.0" />
+                                          <Button fx:id="groupsCommentsUpdateLikeButton" layoutX="791.0" layoutY="88.0" mnemonicParsing="false" onAction="#method_groupsCommentsUpdateLike" prefHeight="25.0" prefWidth="109.0" text="UPDATE LIKE">
+                                             <font>
+                                                <Font name="Times New Roman Bold" size="13.0" />
+                                             </font></Button>
+                                          <Button fx:id="groupsCommentsUpdateMessageButton" layoutX="736.0" layoutY="127.0" mnemonicParsing="false" onAction="#method_groupsCommentsUpdateMessage" text="UPDATE COMMENT">
+                                             <font>
+                                                <Font name="Times New Roman Bold" size="13.0" />
+                                             </font>
+                                          </Button>
+                                          <Button fx:id="groupsDeleteCommentsButton" layoutX="737.0" layoutY="161.0" mnemonicParsing="false" onAction="#method_groupsDeleteComments" text="DELETE COMMENT">
+                                             <font>
+                                                <Font name="Times New Roman Bold" size="13.0" />
+                                             </font>
+                                          </Button>
+                                       </children>
+                                    </Pane>
+                                 </bottom>
+                                 <center>
+                                    <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                                       <children>
+                                          <Button fx:id="groupsAddCourse_GroupButton" layoutX="194.0" layoutY="101.0" mnemonicParsing="false" onAction="#method_groupsAddCourse_Group" prefHeight="25.0" prefWidth="86.0" text="ADD">
+                                             <font>
+                                                <Font name="Times New Roman Bold" size="13.0" />
+                                             </font>
+                                          </Button>
+                                          <Button fx:id="groupsDeleteCourse_GroupButton" layoutX="376.0" layoutY="101.0" mnemonicParsing="false" onAction="#method_groupsDeleteCourse_Group" prefHeight="25.0" prefWidth="113.0" text="DELETE">
+                                             <font>
+                                                <Font name="Times New Roman Bold" size="13.0" />
+                                             </font>
+                                          </Button>
+                                          <TextField fx:id="courseGroupIDText" layoutX="541.0" layoutY="49.0" prefHeight="25.0" prefWidth="57.0" />
+                                          <Label layoutX="534.0" layoutY="21.0" text="COURSE ID">
+                                             <font>
+                                                <Font name="Times New Roman Bold" size="13.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </Pane>
+                                 </center>
+                              </BorderPane>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+            </tabs>
+        </TabPane>
+    </children>
+</AnchorPane>

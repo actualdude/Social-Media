@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="39E0B1E9-EAA8-E6CF-AD40-502C2D7E170C" mainViewID="50EFEAF7-3042-E483-EE9D-0FD2D0D4D3F4">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:23:34 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

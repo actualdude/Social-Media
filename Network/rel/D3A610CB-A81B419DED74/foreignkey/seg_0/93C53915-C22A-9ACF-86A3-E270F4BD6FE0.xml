@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="93C53915-C22A-9ACF-86A3-E270F4BD6FE0" containerWithKeyObject="787B730A-84DA-D014-C113-2F84146998F9" localFKIndex="69C1BF88-0F8D-240A-16C3-75B100D97C0C" name="course_plan_study_plan_FK">
+<sourceDDLFile>network.sql</sourceDDLFile>
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:28:42 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+<importedID>B9043B57-CE24-1CE4-2191-C5F997C74117</importedID>
+<referredTableLongName>study_plan</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>189D7EC9-A9D9-A2FD-E0FA-A425FA1A3A67</referredTableID>
+<keyObject>EB5B00FE-9A97-9300-AB6A-61ED91C9EF19</keyObject>
+<referredKeyID>EB5B00FE-9A97-9300-AB6A-61ED91C9EF19</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>study_plan_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="24609F40-A756-E62C-2A3C-D381143D2DF2" containerWithKeyObject="08412242-0FE0-36C8-71CE-77C8ED9DF048" localFKIndex="396FB908-4AFD-4EFC-E770-F7E65FDBBBBC" name="address_users_FK">
+<sourceDDLFile>network.sql</sourceDDLFile>
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:28:42 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+<importedID>323AE8AC-24A0-4556-17B8-2FD09CF3BDFC</importedID>
+<referredTableLongName>users</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>9D62BF7D-6C1B-467D-0E90-43319852ADAA</referredTableID>
+<keyObject>45E7CD5B-4A4C-A97E-7ECC-746F581F99BB</keyObject>
+<referredKeyID>45E7CD5B-4A4C-A97E-7ECC-746F581F99BB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>user_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

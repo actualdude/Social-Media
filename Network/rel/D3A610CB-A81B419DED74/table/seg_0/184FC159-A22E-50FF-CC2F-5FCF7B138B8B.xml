@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="184FC159-A22E-50FF-CC2F-5FCF7B138B8B" name="messages">
+<sourceDDLFile>network.sql</sourceDDLFile>
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:28:41 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+<importedID>85F48C13-E1B6-DF66-511A-0913E6CE74EF</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="message_id" id="CD80DFBA-2311-BC33-0556-86631628E268">
+<sourceDDLFile>network.sql</sourceDDLFile>
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:28:42 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+<importedID>6E52C0E9-44BF-B093-8D54-250B8637D49E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1C40A755-8DF8-0D1A-C1D3-64622BEC608B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="message_Content" id="B2BA72B7-C1DF-B40E-CABA-C69F817C5E1E">
+<sourceDDLFile>network.sql</sourceDDLFile>
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:28:42 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+<importedID>3A254B00-FF5F-ADF4-ABCC-4B6798829074</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_posted" id="A345FCF0-BEE2-CDF6-277E-CCFAD5BA6BA8">
+<sourceDDLFile>network.sql</sourceDDLFile>
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:28:42 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+<importedID>5DC0EC42-9A85-AA79-2F31-4F04AA0CC058</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="users_user_id" id="8973C74B-B890-EA73-48AA-3533A44C620A">
+<sourceDDLFile>network.sql</sourceDDLFile>
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:28:42 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+<importedID>4E704668-3229-BC9E-9B68-616AD61B7C39</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1C40A755-8DF8-0D1A-C1D3-64622BEC608B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C412038E-3697-AEB9-42AA-5E77FC06C435" referredColumn="C0786AFF-5C21-9B5A-189E-5D62F824564B"/>
+</associations>
+</Column>
+<Column name="friends_friends_id" id="8ECDAF26-4BDB-3B14-8849-866BEE45E219">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-20 21:08:35 UTC</createdTime>
+<generatorID>E446B573-0CF1-D43E-169C-02DF212BCFB1</generatorID>
+<ownerDesignName>Network</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1C40A755-8DF8-0D1A-C1D3-64622BEC608B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1B189AA8-41D1-BF8C-A51B-EEFEC847D865" referredColumn="CECC7FE6-3A2D-6A5D-180E-03FEBDE48115"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="25721F3F-DEB7-D90A-3404-8CFF5907D9F8" name="messages_PK">
+<sourceDDLFile>network.sql</sourceDDLFile>
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:28:42 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+<importedID>BE0DF440-D1CF-6B12-5034-7ECD829EBD7F</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD80DFBA-2311-BC33-0556-86631628E268"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5CCC98DD-A59E-4E0F-9767-7C93184DF5E7" name="messages_users_FK">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 10:28:42 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8973C74B-B890-EA73-48AA-3533A44C620A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="70B7260F-EABC-82BA-D3EA-A620BBE228BB" name="messages_friends_FK">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-20 21:08:35 UTC</createdTime>
+<generatorID>5891DFD5-EC55-4C63-044A-5EB331906E04</generatorID>
+<ownerDesignName>Network</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8ECDAF26-4BDB-3B14-8849-866BEE45E219"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

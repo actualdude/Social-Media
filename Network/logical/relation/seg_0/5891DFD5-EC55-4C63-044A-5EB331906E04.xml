@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="friends_messages" directorySegmentName="seg_0" id="5891DFD5-EC55-4C63-044A-5EB331906E04">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-20 21:00:26 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+<engineerTo>
+<item key="D3A610CB-5C89-AF00-F9EF-A81B419DED74" value="true"/>
+</engineerTo>
+<sourcePk>0AEB5D24-B3F4-1E30-22AA-985298EA7C35</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C9071B50-CF05-596B-3234-D2C5B19C7BA7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>048B0151-B87A-E86E-0AA6-61295A14B7C8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

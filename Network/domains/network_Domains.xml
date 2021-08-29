@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="network_Domains">
+   <domains>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Date_0_0_0" id="040D855E-A886-6174-B073-72FCD0EDDC03">
+         <createdBy>Hidden Treasure</createdBy>
+         <createdTime>2019-05-19 10:28:42 UTC</createdTime>
+         <ownerDesignName>Network</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>network_Domains</fileName>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_255" id="11242DF3-5A82-8C6C-BFFF-947F58036179">
+         <createdBy>Hidden Treasure</createdBy>
+         <createdTime>2019-05-19 10:28:42 UTC</createdTime>
+         <ownerDesignName>Network</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>255</dataTypeSize>
+         <fileName>network_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_100" id="178A047B-9451-EB10-3903-656B431AF0B2">
+         <createdBy>Hidden Treasure</createdBy>
+         <createdTime>2019-05-19 10:28:42 UTC</createdTime>
+         <ownerDesignName>Network</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>100</dataTypeSize>
+         <fileName>network_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Integer_0_0_11" id="1C40A755-8DF8-0D1A-C1D3-64622BEC608B">
+         <createdBy>Hidden Treasure</createdBy>
+         <createdTime>2019-05-19 10:28:42 UTC</createdTime>
+         <ownerDesignName>Network</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>11</dataTypeSize>
+         <fileName>network_Domains</fileName>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+      </Domain>
+   </domains>
+</DomainFile>

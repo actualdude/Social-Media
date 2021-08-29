@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F508DCFB-2F73-74DD-A409-5B8B9BA5DEC5" name="users_courses">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 12:39:44 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="courses_course_id" id="FC0E5777-6B85-3232-21D3-F327A2358EAE">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 12:43:28 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1C40A755-8DF8-0D1A-C1D3-64622BEC608B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E7605804-6DEC-1CEA-DB52-01859275FFD8" referredColumn="AE67C9B9-B6AA-1E3A-E154-E221864CF9D6"/>
+</associations>
+</Column>
+<Column name="users_user_id" id="2EF980EB-9E72-7ED9-0042-E99D5FD663B2">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 12:43:28 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>1C40A755-8DF8-0D1A-C1D3-64622BEC608B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AE49DA44-D30B-69C7-873C-C22DC539498B" referredColumn="C0786AFF-5C21-9B5A-189E-5D62F824564B"/>
+</associations>
+</Column>
+<Column name="userMessages_id" id="8850C6BF-8DEC-4259-C5DC-C7FDDC9C26CC">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 12:50:11 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="06486EEF-38B6-9EF1-ECCE-880312F85264" name="users_courses_PK">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 12:39:44 UTC</createdTime>
+<ownerDesignName>Network</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8850C6BF-8DEC-4259-C5DC-C7FDDC9C26CC"/>
+<colUsage columnID="FC0E5777-6B85-3232-21D3-F327A2358EAE"/>
+<colUsage columnID="2EF980EB-9E72-7ED9-0042-E99D5FD663B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF2BA026-51F7-CA78-085F-0AD0A3AD7FCA" name="users_courses_courses_FK">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 12:39:44 UTC</createdTime>
+<generatorID>AE55359A-B982-9ADD-D9D0-3A30C05C18B7</generatorID>
+<ownerDesignName>Network</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC0E5777-6B85-3232-21D3-F327A2358EAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="93E17824-E242-0CA6-973D-707C4596A8C5" name="users_courses_users_FK">
+<createdBy>Hidden Treasure</createdBy>
+<createdTime>2019-05-19 12:39:44 UTC</createdTime>
+<generatorID>AE55359A-B982-9ADD-D9D0-3A30C05C18B7</generatorID>
+<ownerDesignName>Network</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2EF980EB-9E72-7ED9-0042-E99D5FD663B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
